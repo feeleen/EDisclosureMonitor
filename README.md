@@ -5,7 +5,7 @@ This program allows to monitor appearance of a specific financial information (q
 Program is parsing user-specified public web pages each 10 sec, so you don't need to purchase subscription to access their Rest API service.
 
 When information matches specified regular expression - a sound is played and file archive with financial report downloaded, extracted and pdf file opened.
-This program also helpful if you want quickly open specific fin. report file of a favorite companies directly from disclosure server
+This program also helpful if you want quickly open specific fin. report files of a favorite companies directly from disclosure server
 
 ![Screenshot](https://i.snipboard.io/cAfVvP.jpg)
 
