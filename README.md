@@ -15,7 +15,7 @@ When information matches specified regular expression - a sound is played and fi
 1. Add line to list
 2. Fill in the URL of a web page with financial reports for a company you interested in (see below)
 3. Add friendly name for a line
-4. Choose right regex template or correct it manually
+4. Choose right regex template or write yours
 5. Save a list
 6. Press "Start" button 
 
