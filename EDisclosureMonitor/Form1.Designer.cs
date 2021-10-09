@@ -44,7 +44,6 @@
 			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
 			this.checkAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.uncheckAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.StartBtn = new System.Windows.Forms.Button();
 			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
 			this.ProgressBox = new System.Windows.Forms.ToolStripProgressBar();
 			this.StatusBox = new System.Windows.Forms.ToolStripStatusLabel();
@@ -52,9 +51,10 @@
 			this.ErrorStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
 			this.label4 = new System.Windows.Forms.Label();
 			this.RegexBox = new System.Windows.Forms.ComboBox();
-			this.SaveListBtn = new System.Windows.Forms.Button();
 			this.AddLineBtn = new System.Windows.Forms.Button();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
+			this.SaveListBtn = new System.Windows.Forms.Button();
+			this.StartBtn = new System.Windows.Forms.Button();
 			this.contextMenuStrip1.SuspendLayout();
 			this.statusStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -174,20 +174,6 @@
 			this.uncheckAllToolStripMenuItem.Text = "Uncheck All";
 			this.uncheckAllToolStripMenuItem.Click += new System.EventHandler(this.uncheckAllToolStripMenuItem_Click);
 			// 
-			// StartBtn
-			// 
-			this.StartBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.StartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.StartBtn.Image = global::EDisclosureMonitor.Properties.Resources.Play;
-			this.StartBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.StartBtn.Location = new System.Drawing.Point(918, 8);
-			this.StartBtn.Name = "StartBtn";
-			this.StartBtn.Size = new System.Drawing.Size(78, 25);
-			this.StartBtn.TabIndex = 1;
-			this.StartBtn.Text = "Start";
-			this.StartBtn.UseVisualStyleBackColor = true;
-			this.StartBtn.Click += new System.EventHandler(this.StartBtn_Click);
-			// 
 			// statusStrip1
 			// 
 			this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -254,19 +240,6 @@
 			this.RegexBox.Size = new System.Drawing.Size(864, 21);
 			this.RegexBox.TabIndex = 14;
 			// 
-			// SaveListBtn
-			// 
-			this.SaveListBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.SaveListBtn.Image = ((System.Drawing.Image)(resources.GetObject("SaveListBtn.Image")));
-			this.SaveListBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.SaveListBtn.Location = new System.Drawing.Point(12, 357);
-			this.SaveListBtn.Name = "SaveListBtn";
-			this.SaveListBtn.Size = new System.Drawing.Size(111, 25);
-			this.SaveListBtn.TabIndex = 15;
-			this.SaveListBtn.Text = "Save List";
-			this.SaveListBtn.UseVisualStyleBackColor = true;
-			this.SaveListBtn.Click += new System.EventHandler(this.SaveListBtn_Click_1);
-			// 
 			// AddLineBtn
 			// 
 			this.AddLineBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -282,6 +255,33 @@
 			// 
 			this.timer1.Interval = 1000;
 			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+			// 
+			// SaveListBtn
+			// 
+			this.SaveListBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.SaveListBtn.Image = ((System.Drawing.Image)(resources.GetObject("SaveListBtn.Image")));
+			this.SaveListBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.SaveListBtn.Location = new System.Drawing.Point(12, 357);
+			this.SaveListBtn.Name = "SaveListBtn";
+			this.SaveListBtn.Size = new System.Drawing.Size(111, 25);
+			this.SaveListBtn.TabIndex = 15;
+			this.SaveListBtn.Text = "Save List";
+			this.SaveListBtn.UseVisualStyleBackColor = true;
+			this.SaveListBtn.Click += new System.EventHandler(this.SaveListBtn_Click_1);
+			// 
+			// StartBtn
+			// 
+			this.StartBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.StartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.StartBtn.Image = global::EDisclosureMonitor.Properties.Resources.Play;
+			this.StartBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.StartBtn.Location = new System.Drawing.Point(918, 8);
+			this.StartBtn.Name = "StartBtn";
+			this.StartBtn.Size = new System.Drawing.Size(78, 25);
+			this.StartBtn.TabIndex = 1;
+			this.StartBtn.Text = "Start";
+			this.StartBtn.UseVisualStyleBackColor = true;
+			this.StartBtn.Click += new System.EventHandler(this.StartBtn_Click);
 			// 
 			// Form1
 			// 
@@ -299,7 +299,7 @@
 			this.MinimumSize = new System.Drawing.Size(600, 39);
 			this.Name = "Form1";
 			this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-			this.Text = "PageMonitor";
+			this.Text = "EDisclosureMonitor";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
 			this.contextMenuStrip1.ResumeLayout(false);

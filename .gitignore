@@ -6,3 +6,6 @@
 /packages/System.Numerics.Vectors.4.5.0
 /packages/System.Text.Encoding.CodePages.5.0.0
 /packages/System.Runtime.CompilerServices.Unsafe.5.0.0
+/EDisclosureMonitor/obj/Debug
+/EDisclosureMonitor/bin/Debug
+/EDisclosureMonitor/packages/SevenZipExtractor.1.0.15
