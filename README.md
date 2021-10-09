@@ -7,3 +7,22 @@ Program is parsing user-specified public web pages each 10 sec, so you don't nee
 When information matches specified regular expression - a sound is played and file archive with financial report downloaded, extracted and pdf file opened.
 
 ![Screenshot](https://i.snipboard.io/cAfVvP.jpg)
+
+# How to use it
+
+![Interface](https://i.snipboard.io/80oL1M.jpg)
+
+1. Add line to list
+2. Fill in the URL of a web page with financial reports for a company you interested in (see below)
+3. Add friendly name for a line
+4. Choose right regex template or correct it manually
+5. Save a list
+6. Press "Start" button 
+
+## How to get the URL and choose regex
+
+1. Url of a web page with reports of a company
+2. Standard string we're expecting/looking for and which we should use in regex
+3. Next, if regex is mathed, program automatically looking for nearest http link which is going to be a link to zip or rar archive with pdf file and downloads it
+
+![Screenshot](https://i.snipboard.io/BqTGiL.jpg)
