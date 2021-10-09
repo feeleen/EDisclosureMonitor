@@ -1,6 +1,7 @@
-# PageMonitor
+# EDisclosureMonitor
 
-This program allows to monitor appearance of a specific information on a web page
-When information matches specified regular expression - a sound is played
+This program allows to monitor appearance of a specific financial information on a finance disclosure portal https://e-disclosure.ru
 
-![Screenshot](https://i.snag.gy/KwjrmB.jpg)
+When information matches specified regular expression - a sound is played and file archive with financial report downloaded, extracted and pdf file opened.
+
+![Screenshot](https://i.snipboard.io/cAfVvP.jpg)
